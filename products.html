@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechGear Store | Products</title>
+  <!-- Bootstrap 5 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Animate.css CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body class="d-flex flex-column min-vh-100 bg-light">
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">TechGear Store</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="flex-grow-1 container my-5">
+    
+    <!-- Page Header & Bootstrap Alert -->
+    <div class="text-center mb-5 animate__animated animate__fadeInDown">
+      <h1 class="fw-bold display-5">Our Product Catalog</h1>
+      <p class="text-muted">Explore our curated selection of 8 high-performance tech essentials.</p>
+      
+      <!-- Bootstrap Alert Component -->
+      <div class="alert alert-info alert-dismissible fade show mt-4 shadow-sm mx-auto" style="max-width: 600px;" role="alert">
+        <strong>Special Offer:</strong> Free nationwide delivery on all orders over R1,500! Use code <em>TECH2026</em> at checkout.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+    </div>
+
+    <!-- 8 Products Grid using Bootstrap Cards -->
+    <div class="row g-4 animate__animated animate__fadeInUp">
+      
+      <!-- Product 1 -->
+      <div class="col-sm-6 col-lg-3">
+        <div class="card h-100 border-0 shadow-sm">
+          <img src="https://multimedia.bbycastatic.ca/multimedia/products/500x500/197/19791/19791608.jpeg" class="card-img-top" alt="Studio Pro ANC">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold">Studio Pro ANC</h5>
+            <p class="card-text text-muted small">Active noise-cancelling over-ear headphones with 40-hour battery life.</p>
+            <div class="mt-auto">
+              <span class="fw-bold text-primary fs-5 d-block mb-2">R3,499</span>
+              <button class="btn btn-outline-primary w-100">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="col-sm-6 col-lg-3">
+        <div class="card h-100 border-0 shadow-sm">
+          <img src="https://www.kimlud.com/cdn/shop/files/senbono-amoled-466466-hd-screen-heart-rate-bluetooth-call-wireless-charging-smartwatch-2024-app-gps-tracker-nfc-smart-watch-menkimludkimlud-womens-clothes-33159063.webp?v=1716302881&width=1000" class="card-img-top" alt="ChronoFit X">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold">ChronoFit X</h5>
+            <p class="card-text text-muted small">AMOLED smartwatch with continuous heart-rate tracking and sapphire glass.</p>
+            <div class="mt-auto">
+              <span class="fw-bold text-primary fs-5 d-block mb-2">R2,899</span>
+              <button class="btn btn-outline-primary w-100">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="col-sm-6 col-lg-3">
+        <div class="card h-100 border-0 shadow-sm">
+          <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/2e53a000-e40b-4063-9e8a-87e2dc08a063.jpg;maxHeight=1920;maxWidth=900?format=webp" class="card-img-top" alt="MechKey 75%">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold">MechKey 75%</h5>
+            <p class="card-text text-muted small">Hot-swappable wireless mechanical keyboard with vibrant RGB backlighting.</p>
+            <div class="mt-auto">
+              <span class="fw-bold text-primary fs-5 d-block mb-2">R1,950</span>
+              <button class="btn btn-outline-primary w-100">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="col-sm-6 col-lg-3">
+        <div class="card h-100 border-0 shadow-sm">
+          <img src="https://thepromogroup.co.za/_next/image?url=https%3A%2F%2Fimages.thepromogroup.co.za%2Fproducts%2F2026%2F05%2Fvg-201_1779278743_vg201bk_1.png&w=1080&q=75" class="card-img-top" alt="AeroGlide Pro">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold">AeroGlide Pro</h5>
+            <p class="card-text text-muted small">Ultra-lightweight 58g ergonomic wireless gaming and productivity mouse.</p>
+            <div class="mt-auto">
+              <span class="fw-bold text-primary fs-5 d-block mb-2">R1,299</span>
+              <button class="btn btn-outline-primary w-100">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 5 -->
+      <div class="col-sm-6 col-lg-3"></span>
+        <div class="card h-100 border-0 shadow-sm">
+          <img src="https://tse2.mm.bing.net/th/id/OIP.zzLn3PYrXIDLkKhnr4i3GAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top" alt="PulsePod Mini">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold">PulsePod Mini</h5>
+            <p class="card-text text-muted small">360-degree waterproof portable Bluetooth speaker with punchy bass.</p>
+            <div class="mt-auto">
+              <span class="fw-bold text-primary fs-5 d-block mb-2">R1,499</span>
+              <button class="btn btn-outline-primary w-100">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 6 -->
+      <div class="col-sm-6 col-lg-3">
+        <div class="card h-100 border-0 shadow-sm">
+          <img src="https://i5.walmartimages.com/seo/Wireless-Charger-3-1-Wireless-Charging-Station-Fast-Charging-Dock-iPhone-15-14-13-12-11-Pro-XS-XR-X-SE-Galaxy-15W-Wireless-Charger-Stand-Apple-Watch_43f1a02b-b52a-4946-8e94-03064b86e318.77baa08b41e122aebff3065827a74173.jpeg?odnHeight=576&odnWidth=576&odnBg=FFFFFF" class="card-img-top" alt="MagDock 3-in-1">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold">MagDock 3-in-1</h5>
+            <p class="card-text text-muted small">Fast magnetic wireless charging stand for phone, watch, and earbuds.</p>
+            <div class="mt-auto">
+              <span class="fw-bold text-primary fs-5 d-block mb-2">R999</span>
+              <button class="btn btn-outline-primary w-100">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 7 -->
+      <div class="col-sm-6 col-lg-3">
+        <div class="card h-100 border-0 shadow-sm">
+          <img src="https://m.media-amazon.com/images/I/61hXp-68Y3L._AC_.jpg" class="card-img-top" alt="VisionCam 4K">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold">VisionCam 4K</h5>
+            <p class="card-text text-muted small">Ultra-HD streaming webcam with auto-focus and dual noise-cancelling mics.</p>
+            <div class="mt-auto">
+              <span class="fw-bold text-primary fs-5 d-block mb-2">R2,199</span>
+              <button class="btn btn-outline-primary w-100">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 8 -->
+      <div class="col-sm-6 col-lg-3">
+        <div class="card h-100 border-0 shadow-sm">
+          <img src="https://eu.targus.com/cdn/shop/products/hyper-usb-hubs-hyper-hyperdrive-next-8-port-usb-c-hub-hd4004gl-35791742927046_1024x1024.jpg?v=1692797953" class="card-img-top" alt="HyperHub USB-C">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold">HyperHub USB-C</h5>
+            <p class="card-text text-muted small">The HyperHub Flex 4-Port USB-C Hub provides seamless connectivity for USB-C devices, making it easy to expand your setup..</p>
+            <span class="fw-bold text-primary fs-5 d-block mb-2">R499</span>
+            <button class="btn btn-outline-primary w-100">Add to Cart</button>
+            <p class="card-text text-muted small">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4 mt-auto">
+    <div class="container">
+      <p class="mb-1 fw-semibold">TechGear Store</p>
+      <p class="mb-0 small text-secondary">&copy; 2026 TechGear Store. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
